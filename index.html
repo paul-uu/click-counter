@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+	<html lang="en">
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Click Counter</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-2.1.1.min.js"></script>
+		<script src="script.js"></script>
+
+	</head>
+	<body>
+
+
+		<a href="/">Back to paulwittschen.com</a><br><br>
+		
+		<h1> Click Counter Game</h1>
+
+		<div id="content">
+
+			<div id="container_1" class="content_container">
+				<div id="instructions">
+
+				<p style="font-size:20px; text-decoration: underline">Instructions:</p>
+
+				<p>The game is simple. Click the button as many times as you can in 30 seconds.</p>
+
+				<p> Your first click begins the timer and the game.</p>
+
+				<p> Good luck!</p>
+				</div>
+			</div>
+
+			<div id="container_3" class="content_container">
+				<div id="leaderboard">
+					
+					<p><u>Leaderboard:</u></p>
+					<div id='leaderboard_data'></div>
+
+				</div>
+			</div>	
+
+			<div id="container_2" class="content_container">
+				<div id="timer">
+					<div id="timer_text"></div>	
+				</div>
+				<div id="button">
+					<p id="button_text">click me</p>
+				</div>
+				<div id="count_display">
+					<div id="count_text"></div>
+				</div>
+				<input type="button" value="Reset" id="reset_button"/>
+			</div>
+
+
+		</div>
+
+	</body>
+</html>
